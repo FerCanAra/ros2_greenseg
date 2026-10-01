@@ -2,7 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-preprint-b31b1b.svg)](https://arxiv.org/abs/2605.25279)
 [![Last Updated](https://img.shields.io/badge/last%20updated-2026--10-blue)](.)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22679881.svg)](https://doi.org/10.5281/zenodo.22679881)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22679881.svg)](https://doi.org/10.5281/zenodo.23087154)
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](LICENSE)
 
 This paper presents GreenSeg, a robust perception framework for autonomous navigation using RGB-D sensing. The proposed method introduces a dual-layer validation strategy: a robust global plane fitting combined with a surface curvature filter for terrain adaptability, and a seed-point-based Region Growing constraint to ensure the spatial continuity of the navigable plane. Experimental validation was conducted using the AGRICOBIOT I
@@ -44,10 +44,10 @@ The algotihm has been tested on ROS2 Humble, Ubuntu 22.04 LTS.
 @software{agricultural_benchmark,
   author  = {Ca{\~n}adas-Ar{\'a}nega, Fernando},
   title   = {GreenSeg: Ground Segmentation Algorithm for Agricultural Robots in Mediterranean Greenhouses using RGB-D Point Clouds},
-  version = {1.0.1},
+  version = {0.0.1},
   year    = {2026},
-  doi     = {https://doi.org/10.5281/zenodo.22679881},
-  url     = {https://github.com/FerCanAra/robotics_benchmark_greenhouse/tree/main}
+  doi     = {https://doi.org/10.5281/zenodo.23087154},
+  url     = {https://github.com/FerCanAra/ros2_greenseg.git}
 }
 ```
 📜 License
