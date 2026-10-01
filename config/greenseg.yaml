@@ -1,0 +1,43 @@
+greenseg:
+  ros__parameters:
+    # ---- Table 2 ----
+    max_surface_height: 0.12      # h_ground [m]
+    max_incline: 30.0             # [deg]
+    robot_height: 0.5             # H_robot [m] (AGRICOBIOT I)
+    n_neighbors: 30               # min |N_i| for a valid normal
+    r_neighbors: 0.05             # PCA radius r [m]
+    rho_min: 0.90                 # normal consistency
+    kappa_max: 0.05               # curvature
+    r_growing: 0.05               # region-growing radius r_g [m]
+    max_distance_filtered: 3.0    # camera depth range [m]
+    min_distance_filtered: 0.3
+
+    # ---- PF seeding ----
+    radial_min_distance: 0.3      # d_min in the xy plane of base_link [m]
+    gpf_iterations: 3
+    gpf_lpr_fraction: 0.05
+    gpf_seed_threshold: 0.10
+    gpf_max_points: 20000         # plane fit on a subsample (0 = all points)
+
+    # ---- Region-growing seed ----
+    seed_band: 0.5
+
+    # ---- implementation ----
+    method: "organized"           # "organized" (image-space, fast) | "kdtree" (reference)
+    height_reference: "base_link" # "plane" = height above fitted plane
+
+    # organized method
+    window_half: 4                # 9x9 = 81 samples per neighbourhood (~63 inside r)
+    window_max_step: 8            # max pixel step between window samples
+    normal_decimation: 2          # PCA on 1 of every 2x2 ground pixels
+    growing_pixel_radius: 1       # region-growing edges: 8-connectivity + 3D distance <= r_g
+
+    # kdtree method
+    voxel_size: 0.01              # [m], 0 disables
+    normal_max_neighbors: 64      # PCA uses the nearest <=64 points within r
+    base_frame: "base_link"
+    pixel_stride: 2               # 2 = same as depth_filter [::2, ::2]
+    depth_scale_16u: 0.001        # RealSense 16UC1 is in mm
+    tf_timeout: 0.1
+    use_sensor_data_qos: true     # BEST_EFFORT input
+    publish_labeled: true

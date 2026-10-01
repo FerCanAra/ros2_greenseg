@@ -1,0 +1,14 @@
+build/
+install/
+log/
+rosbag/
+.vscode/
+wget-log
+*.bag
+*.mcap
+*.mp4
+*.avi
+*.zip
+*.pt
+*.onnx
+*.pth
