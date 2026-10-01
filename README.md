@@ -1,6 +1,6 @@
 # GreenSeg: Ground Segmentation Algorithm for Agricultural Robots in Mediterranean Greenhouses using RGB-D Point Clouds🌱
 
-[![arXiv](https://arxiv.org/abs/2605.25279)
+[![arXiv](https://img.shields.io/badge/arXiv-preprint-b31b1b.svg)](https://arxiv.org/abs/2605.25279)
 [![Last Updated](https://img.shields.io/badge/last%20updated-2026--10-blue)](.)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22679881.svg)](https://doi.org/10.5281/zenodo.22679881)
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](LICENSE)
@@ -9,7 +9,15 @@ This paper presents GreenSeg, a robust perception framework for autonomous navig
 platform across four diurnal scenarios with varying solar elevations. The results show that GreenSeg consistently outperforms benchmark segmentation methods, achieving peak improvements of 11.58% in mean Recall and 19.24% in mIoU during critical rotational maneuvers at the end of corridors. These findings confirm that the proposed algorithm enables stable and safe autonomous navigation in unstructured, dynamic agricultural environments
 that are subject to budget constraints and sensitive to lighting conditions.
 
-The simulator has been tested on ROS2 Humble, Ubuntu 22.04 LTS.
+<img src="docs/greeenseg_gif.gif" width="350">
+
+The algotihm has been tested on ROS2 Humble, Ubuntu 22.04 LTS.
+
+*[Automatic, Robotics and Mechatronics](https://arm.ual.es/arm-group/) group, Departments of Informatics*
+
+*Gmail: fernando.ca@ual.es*
+
+*Website: https://linktr.ee/FerCanAra*
 
 > **Note:** Process tested with on 5th October 2026.
 
