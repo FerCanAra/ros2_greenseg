@@ -11,7 +11,7 @@ that are subject to budget constraints and sensitive to lighting conditions.
 
 <img src="docs/greeenseg_gif.gif" width="900">
 
-The algotihm has been tested on ROS2 Humble, Ubuntu 22.04 LTS.
+Puedes ver el video completo en [YouTube](https://youtu.be/bs2AFZjdHDQ). The algotihm has been tested on ROS2 Humble, Ubuntu 22.04 LTS.
 
 *[Automatic, Robotics and Mechatronics](https://arm.ual.es/arm-group/) group, Departments of Informatics*
 
