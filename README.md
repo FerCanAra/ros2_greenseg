@@ -91,15 +91,13 @@ source install/setup.bash
 
 Launch your camera application with the topics "/camera/depth/image_raw" and "/camera/depth/camera_info" enabled (you can also use a ROS 2 bag containing this information). Then, in another terminal, run the following command:
 
-**Real robot**
-------------------
+## Real robot
 
 ```bash
 ros2 launch greenseg greenseg.launch.py
 ```
 
-**Simulation**
-------------------
+## Simulation
 
 ```
 ros2 launch greenseg greenseg.launch.py use_sim_time:=true \
@@ -109,11 +107,9 @@ ros2 launch greenseg greenseg.launch.py use_sim_time:=true \
 
 | Topic | tipe | Content |
 |---|---|---|
-| `/greenseg/obstacles` | PointCloud2 | P_obs^RG (ec. 20) → costmap local |
-| `/greenseg/ground` | PointCloud2 | P_ground^RG (ec. 19) |
+| `/greenseg/obstacles` | PointCloud2 | P_obs^RG → costmap local |
+| `/greenseg/ground` | PointCloud2 | P_ground^RG |
 | `/greenseg/labeled` | PointCloud2 | x y z `label` `rho` `kappa` (0 ground, 1 obstacle, 2 above, 3 noise) |
 
 In RViz, use `/greenseg/labeled` with *Color Transformer = Intensity* and the `label` channel.
-
-
 
