@@ -9,7 +9,7 @@ This paper presents GreenSeg, a robust perception framework for autonomous navig
 platform across four diurnal scenarios with varying solar elevations. The results show that GreenSeg consistently outperforms benchmark segmentation methods, achieving peak improvements of 11.58% in mean Recall and 19.24% in mIoU during critical rotational maneuvers at the end of corridors. These findings confirm that the proposed algorithm enables stable and safe autonomous navigation in unstructured, dynamic agricultural environments
 that are subject to budget constraints and sensitive to lighting conditions.
 
-<img src="docs/greeenseg_gif.gif" width="350">
+<img src="docs/greeenseg_gif.gif" width="900">
 
 The algotihm has been tested on ROS2 Humble, Ubuntu 22.04 LTS.
 
