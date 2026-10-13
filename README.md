@@ -13,7 +13,7 @@ that are subject to budget constraints and sensitive to lighting conditions.
 
 You can watch the full video at [YouTube](https://youtu.be/bs2AFZjdHDQ). The algotihm has been tested on ROS2 Humble, Ubuntu 22.04 LTS.
 
-*[Automatic, Robotics and Mechatronics](https://arm.ual.es/arm-group/) group, Departments of Informatics*
+*[Automatic, Robotics and Mechatronics](https://arm.ual.es/arm-group/) group (ARM - TEP197), Departments of Informatics, University of Almeria, Almería, Spain*
 
 *Gmail: fernando.ca@ual.es*
 
