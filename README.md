@@ -26,8 +26,7 @@ You can watch the full video at [YouTube](https://youtu.be/bs2AFZjdHDQ). The alg
 *Paper citation*
 ------------------
 ```
-@article{canadas2026ros2,
-@Article{cmes.2026.085691,
+@Article{canadas2026greenseg,
 AUTHOR = {Fernando Cañadas-Aránega, José C. Moreno, José L. Blanco-Claraco},
 TITLE = {GreenSeg: Ground Segmentation Algorithm for Agricultural Robots in Mediterranean Greenhouses Using RGB-D Point Clouds},
 JOURNAL = {Computer Modeling in Engineering \& Sciences},
@@ -43,7 +42,7 @@ DOI = {10.32604/cmes.2026.085691}
 *Software citation*
 ------------------
 ```
-@software{agricultural_benchmark,
+@software{softwaregreenseg,
   author  = {Ca{\~n}adas-Ar{\'a}nega, Fernando},
   title   = {GreenSeg: Ground Segmentation Algorithm for Agricultural Robots in Mediterranean Greenhouses using RGB-D Point Clouds},
   version = {0.0.1},
