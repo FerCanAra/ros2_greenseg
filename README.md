@@ -26,17 +26,16 @@ You can watch the full video at [YouTube](https://youtu.be/bs2AFZjdHDQ). The alg
 *Paper citation*
 ------------------
 ```
-@Article{canadas2026greenseg,
-AUTHOR = {Fernando Cañadas-Aránega, José C. Moreno, José L. Blanco-Claraco},
+@article{canadas2026greenseg,
+AUTHOR = {Ca{\~n}adas-Ar{\'a}nega, Fernando and Moreno, Jose Carlos and Blanco-Claraco, Jose Luis},
 TITLE = {GreenSeg: Ground Segmentation Algorithm for Agricultural Robots in Mediterranean Greenhouses Using RGB-D Point Clouds},
 JOURNAL = {Computer Modeling in Engineering \& Sciences},
-VOLUME = {-},
+VOLUME = {149},
 YEAR = {2026},
-NUMBER = {-},
-PAGES = {{pages}},
-URL = {http://www.techscience.com/CMES/online/detail/28567},
+NUMBER = {1},
+PAGES = {43},
+DOI = {10.32604/cmes.2026.085691},
 ISSN = {1526-1506},
-DOI = {10.32604/cmes.2026.085691}
 }
 ```
 *Software citation*
