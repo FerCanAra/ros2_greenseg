@@ -40,7 +40,7 @@ DOI = {10.32604/cmes.2026.085691},
 ISSN = {1526-1506},
 }
 ```
-You can read the article at [CMES Jornal](https://www.techscience.com/CMES/v149n1/69173)
+You can read the article at [CMES Journal](https://www.techscience.com/CMES/v149n1/69173)
 
 *Software citation*
 ------------------
