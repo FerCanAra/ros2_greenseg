@@ -19,6 +19,8 @@ You can watch the full video at [YouTube](https://youtu.be/bs2AFZjdHDQ). The alg
 
 *Website: https://linktr.ee/FerCanAra*
 
+[Paper link](https://www.techscience.com/CMES/v149n1/69173)
+
 > **Note:** Process tested with on 5th October 2026.
 
 📑 Citation
